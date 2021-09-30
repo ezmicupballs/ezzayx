@@ -1,0 +1,161 @@
+-- By $bullet discord is $bullet#6321 follow my girlf friend on tiktok @naturebabe99
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local Autorob = Instance.new("TextButton")
+local Vynixius = Instance.new("TextButton")
+local RayCodeX = Instance.new("TextButton")
+local flash = Instance.new("TextButton")
+local krypt = Instance.new("TextButton")
+local Shazam = Instance.new("TextButton")
+local Animationeditor = Instance.new("TextButton")
+local TextLabel_4 = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+main.Position = UDim2.new(0.137002781, 0, 0.0825147331, 0)
+main.Size = UDim2.new(0, 639, 0, 357)
+main.Active = true
+main.Draggable = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+TextLabel.Position = UDim2.new(0.687010944, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "EzzayX"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+TextLabel_2.Position = UDim2.new(0.0281690136, 0, 0, 0)
+TextLabel_2.Size = UDim2.new(0, 169, 0, 50)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "jailbreak scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+TextLabel_3.Position = UDim2.new(0.384976506, 0, 0, 0)
+TextLabel_3.Size = UDim2.new(0, 169, 0, 50)
+TextLabel_3.Font = Enum.Font.GothamBold
+TextLabel_3.Text = "Da hood scripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+Autorob.Name = "Auto rob"
+Autorob.Parent = main
+Autorob.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Autorob.Position = UDim2.new(0.0281690136, 0, 0.193277314, 0)
+Autorob.Size = UDim2.new(0, 169, 0, 50)
+Autorob.Font = Enum.Font.GothamBold
+Autorob.Text = "Auto rob"
+Autorob.TextColor3 = Color3.fromRGB(0, 0, 0)
+Autorob.TextSize = 14.000
+Autorob.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
+end)
+
+Vynixius.Name = "Vynixius"
+Vynixius.Parent = main
+Vynixius.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+Vynixius.Position = UDim2.new(0.0281690136, 0, 0.364145666, 0)
+Vynixius.Size = UDim2.new(0, 169, 0, 50)
+Vynixius.Font = Enum.Font.GothamBold
+Vynixius.Text = "Vynixius"
+Vynixius.TextColor3 = Color3.fromRGB(0, 0, 0)
+Vynixius.TextSize = 14.000
+Vynixius.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+end)
+
+RayCodeX.Name = "RayCodeX"
+RayCodeX.Parent = main
+RayCodeX.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+RayCodeX.Position = UDim2.new(0.408450693, 0, 0.364145666, 0)
+RayCodeX.Size = UDim2.new(0, 154, 0, 50)
+RayCodeX.Font = Enum.Font.GothamBold
+RayCodeX.Text = "RayCodeX"
+RayCodeX.TextColor3 = Color3.fromRGB(0, 0, 0)
+RayCodeX.TextSize = 14.000
+RayCodeX.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+flash.Name = "flash"
+flash.Parent = main
+flash.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+flash.Position = UDim2.new(0.408450693, 0, 0.193277314, 0)
+flash.Size = UDim2.new(0, 154, 0, 50)
+flash.Font = Enum.Font.GothamBold
+flash.Text = "flash"
+flash.TextColor3 = Color3.fromRGB(0, 0, 0)
+flash.TextSize = 14.000
+flash.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/ShazamScript/main/FlashScript"))()
+end)
+
+krypt.Name = "krypt"
+krypt.Parent = main
+krypt.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+krypt.Position = UDim2.new(0.408450693, 0, 0.523809552, 0)
+krypt.Size = UDim2.new(0, 154, 0, 50)
+krypt.Font = Enum.Font.GothamBold
+krypt.Text = "krypt"
+krypt.TextColor3 = Color3.fromRGB(0, 0, 0)
+krypt.TextSize = 14.000
+krypt.MouseButton1Down:connect(function()
+	repeat
+		wait()
+	until game:IsLoaded()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/0nly6Ex/krypt/main/loader"))()
+end)
+
+Shazam.Name = "Shazam"
+Shazam.Parent = main
+Shazam.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Shazam.Position = UDim2.new(0.408450693, 0, 0.859943986, 0)
+Shazam.Size = UDim2.new(0, 154, 0, 50)
+Shazam.Font = Enum.Font.GothamBold
+Shazam.Text = "Shazam"
+Shazam.TextColor3 = Color3.fromRGB(0, 0, 0)
+Shazam.TextSize = 14.000
+Shazam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DaHoodScripts/Shitty-nigger-get-cracked/main/w"))()
+end)
+
+Animationeditor.Name = "Animation editor"
+Animationeditor.Parent = main
+Animationeditor.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+Animationeditor.Position = UDim2.new(0.408450693, 0, 0.694677889, 0)
+Animationeditor.Size = UDim2.new(0, 154, 0, 50)
+Animationeditor.Font = Enum.Font.GothamBold
+Animationeditor.Text = "Animation editor"
+Animationeditor.TextColor3 = Color3.fromRGB(0, 0, 0)
+Animationeditor.TextSize = 14.000
+Animationeditor.MouseButton1Down:connect(function()
+	teclaopen = "J" ---Cambia la tecla, por la que gustes para cerrar la GUI
+
+	loadstring(game:HttpGet("https://god-x.000webhostapp.com/linkAnimatorEdit.lua", true))()
+end)
+
+TextLabel_4.Parent = main
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_4.Position = UDim2.new(-0.170578912, 0, 1.15686285, 0)
+TextLabel_4.Size = UDim2.new(0, 257, 0, 30)
+TextLabel_4.Font = Enum.Font.GothamBold
+TextLabel_4.Text = "More games and scripts coming soon!"
+TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.TextSize = 14.000
